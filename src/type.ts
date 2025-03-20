@@ -1,3 +1,7 @@
+export interface ErrorResponse {
+    message: string;
+}
+
 export interface Profile {
     id: number;
     email: string;
