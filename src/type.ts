@@ -19,7 +19,6 @@ export interface Purchase {
     operator: string;
     product: string;
     price: number;
-    status: string;
     expires: string;
     sms: null;
     created_at: string;
